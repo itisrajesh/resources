@@ -1,6 +1,6 @@
 <svg viewBox="0 0 970 300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="800" height="300" fill="#ffffff" opacity="0.1"/>
+  <rect width="970" height="300" fill="#ffffff" opacity="0.1"/>
   
   <!-- Original Text Box -->
   <rect x="50" y="100" width="200" height="100" fill="none" stroke="#2196F3" stroke-width="2">
