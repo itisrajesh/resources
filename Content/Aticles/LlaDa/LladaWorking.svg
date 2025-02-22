@@ -1,0 +1,62 @@
+<svg viewBox="0 0 970 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Original Text Box -->
+  <rect x="50" y="100" width="200" height="100" fill="none" stroke="#2196F3" stroke-width="2">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0s" fill="freeze"/>
+  </rect>
+  <text x="70" y="150" fill="#2196F3" font-family="monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0s" fill="freeze"/>
+    The cat sat on the mat.
+  </text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 270 150 L 370 150" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1s" fill="freeze"/>
+  </path>
+  
+  <!-- Partially Masked Text Box -->
+  <rect x="390" y="100" width="200" height="100" fill="none" stroke="#2196F3" stroke-width="2">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze"/>
+  </rect>
+  <text x="410" y="150" fill="#2196F3" font-family="monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze"/>
+    The [M] sat on [M] mat.
+  </text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 610 150 L 710 150" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
+  </path>
+  
+  <!-- Fully Masked Text Box -->
+  <rect x="730" y="100" width="200" height="100" fill="none" stroke="#2196F3" stroke-width="2">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4s" fill="freeze"/>
+  </rect>
+  <text x="750" y="150" fill="#2196F3" font-family="monospace">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4s" fill="freeze"/>
+    [M] [M] [M] [M] [M] [M].
+  </text>
+  
+  <!-- Labels -->
+  <text x="120" y="50" fill="#666" font-size="14">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0s" fill="freeze"/>
+    Original Text
+  </text>
+  <text x="440" y="50" fill="#666" font-size="14">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze"/>
+    Partial Masking
+  </text>
+  <text x="780" y="50" fill="#666" font-size="14">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4s" fill="freeze"/>
+    Full Masking
+  </text>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
