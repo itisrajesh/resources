@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Model Architecture -->
+  <rect x="250" y="50" width="300" height="300" fill="none" stroke="#2196F3" stroke-width="2" rx="10"/>
+  
+  <!-- Input Layer -->
+  <rect x="300" y="100" width="200" height="40" fill="none" stroke="#666" stroke-width="2"/>
+  <text x="350" y="125" fill="#666" font-size="14">Input Layer</text>
+  
+  <!-- Transformer Layers -->
+  <rect x="300" y="160" width="200" height="80" fill="none" stroke="#666" stroke-width="2"/>
+  <text x="330" y="200" fill="#666" font-size="14">Transformer Layers</text>
+  <text x="350" y="220" fill="#666" font-size="12">(No Causal Mask)</text>
+  
+  <!-- Output Layer -->
+  <rect x="300" y="260" width="200" height="40" fill="none" stroke="#666" stroke-width="2"/>
+  <text x="350" y="285" fill="#666" font-size="14">Output Layer</text>
+  
+  <!-- Title -->
+  <text x="300" y="80" fill="#2196F3" font-size="16" font-weight="bold">LLaDA Architecture</text>
+</svg>
